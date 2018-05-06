@@ -22,8 +22,7 @@ wordcount = words.map(lambda x:(x,1)) \
 
 #Imprime o resultado
 for word in wordcount.collect():
-    if word[0] > 2:
-        print(word)
+	print(word)
 
 #Salva o resultado no HDFS dentro da pasta /user/toti/textos/Wordcount/
 wordcount.saveAsTextFile("/user/toti/textos/Wordcount")
