@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from pyspark import SparkContext, SparkConf
 
 #Cria a app com o nome WordCount
